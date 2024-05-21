@@ -3,7 +3,7 @@ name: 'Terraform'
 on:
   workflow_dispatch:
     inputs:
-      terraform action:
+      terraform_action:
         type: choice
         description: select terraform action
         options:
