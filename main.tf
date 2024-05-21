@@ -4,7 +4,7 @@ provider "aws" {
 
 resource "aws_instance" "first-instance" {
   ami           = "ami-013e83f579886baeb"
-  instance_type = "t2.micro"
+  instance_type = var.instance_type
   key_name      = "first-1"
   vpc_security_group_ids = ["sg-0d2214e9c3f96d852"]
 
