@@ -2,8 +2,8 @@ name: 'Terraform'
 
 on:
   workflow_dispatch:
-    input:
-      terroform action:
+    inputs:
+      terraform action:
         type: choice
         description: select terraform action
         option:
